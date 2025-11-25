@@ -341,8 +341,8 @@ def generate_random_plans(amount: int, dep: Airport, vfr_factor: int, incorrect_
 
     with open(resourcePath("rsc/callsignsIFR.json")) as jsonData:
         JSONInjest = json.load(jsonData)
-    if(dep.icao == "EGLL"):
-        callsigns = JSONInjest.get("EGLL")
+    if(dep.icao == "OTHH"):
+        callsigns = JSONInjest.get("OTHH")
     else:
         callsigns = JSONInjest.get("callsigns")
 
@@ -366,7 +366,7 @@ def generate_random_plans(amount: int, dep: Airport, vfr_factor: int, incorrect_
         possTypes = types[chosenCallsign].split(",")
         acType = random.choice(possTypes)
 
-        if(dep.icao == "EGLL"):
+        if(dep.icao == "OTHH"):
             terminal = findTerminal(heathrowTerminals, chosenCallsign)
             while True:
                 if terminalStands[terminal] != {}:
