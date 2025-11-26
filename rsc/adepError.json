@@ -1,20 +1,46 @@
 {
-  "EGPH": [
-    "EGHP",
-    "EGPF",
-    "EDI",
-    "EDN"
+  "OTHH": [
+    "DOH",
+    "DXB",
+    "AUH",
+    "MCT",
+    "OTDF",
+    "OMAE",
+    "OOMM"
   ],
-  "EGSS": [
-    "EGGS",
-    "STN"
+  "OMDB": [
+    "DXB",
+    "DOH",
+    "AUH",
+    "OTDF",
+    "OMAE"
   ],
-  "EGCC": [
-    "MAN"
+  "OMAA": [
+    "DXB",
+    "AUH",
+    "DOH",
+    "MCT",
+    "OTDF",
+    "OMAE"
   ],
-  "EGLL": [
-    "LHR",
-    "EGLC",
-    "LON"
+  "OOMS": [
+    "MCT",
+    "DXB",
+    "AUH",
+    "DOH",
+    "MCT",
+    "OOMM",
+    "OTDF",
+    "OMAE"
+  ],
+    "OMSJ": [
+    "MCT",
+    "DXB",
+    "AUH",
+    "DOH",
+    "MCT",
+    "OMAE" ,
+    "OTDF",
+    "OOMM"
   ]
 }
